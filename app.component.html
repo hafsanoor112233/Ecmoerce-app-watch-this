@@ -1,0 +1,68 @@
+<html>
+ <head>
+  <title>
+   Exclusive - Create an Account
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="header-top">
+   Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+   <a href="#">
+    ShopNow
+   </a>
+   <div class="language">
+    <select>
+     <option>
+      English
+     </option>
+     <option>
+      Spanish
+     </option>
+    </select>
+   </div>
+  </div>
+  <!-- Navbar -->
+<div class="header">
+  <div class="logo">Exclusive</div>
+  <nav>
+    <!-- Use (click) to call the changeView() function for each section -->
+    <a (click)="changeView('home')">Home</a>
+    <a (click)="changeView('contact')">Contact</a>
+    <a (click)="changeView('about')">About</a>
+    <a (click)="changeView('signup')">Sign Up</a>
+    <a (click)="changeView('login')">Login</a>
+  </nav>
+  <div class="search-bar">
+    <input placeholder="What are you looking for?" type="text" />
+    <i class="fas fa-search"></i>
+  </div>
+</div>
+  <div class="main">
+   <div class="image">
+    <img alt="A shopping cart with a smartphone and shopping bags" src="https://mostaql.hsoubcdn.com/uploads/thumbnails/1589342/66802106ea8c5/logo.png?s=medium" width="1300px">
+   </div>
+   <div class="form-container">
+    <h2>
+     Create an account
+    </h2>
+    <p>
+     Enter your details below
+    </p>
+    <input placeholder="Name" type="name"/>
+    <input placeholder="Email or Phone Number" type="text"/>
+    <input placeholder="Password" type="password"/>
+    <button class="btn">
+     Create an account
+    </button>
+    <div class="login-link">
+     Already have account?
+     <a href="#">
+      Log in
+     </a>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
